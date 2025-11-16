@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: hellodocker-nodeport
 spec:
-  type: NodePort
+  type: NodePort #OR LoadBalancer or ClusterIP depending on your needs
   selector:
     app: hellodocker
   ports:
