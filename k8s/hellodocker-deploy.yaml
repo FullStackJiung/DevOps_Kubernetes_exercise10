@@ -20,7 +20,7 @@ spec:
             - containerPort: 80
           env:
             - name: NAME
-              value: "Pritesh from minikube"
+              value: "Pritesh from minikube and Kubernetes"
           readinessProbe:
             httpGet:
               path: /
